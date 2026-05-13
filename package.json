@@ -1,0 +1,39 @@
+{
+  "name": "tidesatlas",
+  "version": "0.1.0",
+  "description": "Official Node.js SDK for TidesAtlas — worldwide tide predictions, weather & marine data API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "homepage": "https://tidesatlas.com/api/docs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TidesAtlas/tidesatlas-node"
+  },
+  "keywords": [
+    "tides",
+    "tide-predictions",
+    "marine",
+    "weather",
+    "ocean",
+    "waves",
+    "astronomy",
+    "moon-phase",
+    "sunrise",
+    "sunset",
+    "api",
+    "sdk"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  }
+}
