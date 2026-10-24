@@ -2,7 +2,7 @@
 
 Official Node.js SDK for [TidesAtlas](https://tidesatlas.com) — worldwide tide predictions, weather & marine data API.
 
-- 18,000+ tide stations across 188 countries
+- 13,000+ tide stations across 180 countries
 - Tide predictions, weather, marine/wave, astronomy (sun & moon) data
 - Historical data access
 - Zero dependencies, native `fetch` (Node 18+)
@@ -26,7 +26,7 @@ const data = await client.tides({ port: 'brest-3-fra-refmar' });
 console.log(data.extremes);
 ```
 
-Get your free API key at [tidesatlas.com/api/docs](https://tidesatlas.com/api/docs).
+Get your free API key (50 credits) at [tidesatlas.com/api/docs](https://tidesatlas.com/en/api/docs).
 
 ## Usage
 
@@ -223,7 +223,7 @@ const tides: TidesResponse = await client.tides({ port: 'brest-3-fra-refmar' });
 
 ## API Documentation
 
-Full API reference: [tidesatlas.com/api/docs](https://tidesatlas.com/api/docs)
+Full API reference: [tidesatlas.com/api/docs](https://tidesatlas.com/en/api/docs)
 
 ## License
 
